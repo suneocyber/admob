@@ -10,12 +10,19 @@
   },
   "interstitial": {
     "enabled": true,
-    "capping_minutes": 10,
-    "ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+    "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
+    "safety_timing": {
+      "capping_interval_minutes": 10,
+      "first_launch_delay_minutes": 5,
+      "pre_roll_notice_millis": 500,
+      "max_ads_per_day": 4
+    }
   },
   "app_open": {
     "enabled": true,
-    "cooldown_hours": 4,
-    "ad_unit_id": "ca-app-pub-3940256099942544/9257395921"
+    "ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
+    "safety_timing": {
+      "cooldown_hours": 4
+    }
   }
 }
