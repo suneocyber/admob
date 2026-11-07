@@ -12,17 +12,17 @@
     "enabled": true,
     "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
     "safety_timing": {
-      "capping_interval_minutes": 10,
-      "first_launch_delay_minutes": 5,
-      "pre_roll_notice_millis": 500,
-      "max_ads_per_day": 4
+      "capping_interval_minutes": 3,
+      "first_launch_delay_minutes": 1,
+      "pre_roll_notice_millis": 400,
+      "max_ads_per_day": 15
     }
   },
   "app_open": {
     "enabled": true,
     "ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
     "safety_timing": {
-      "cooldown_hours": 4
+      "cooldown_minutes": 30
     }
   }
 }
